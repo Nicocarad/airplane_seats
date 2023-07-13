@@ -123,3 +123,10 @@ DELETE `/api/delete`
 | mario.rossi@polito.it         | password            |
 | maria.verdi@polito.it         | password            |
 | nicolo.caradonna@polito.it    | password            |
+
+# **How to run**
+- Install node.js and nodemon (globally)
+- npm install in "Client"
+- npm install in "Server"
+- npm run dev in "Client"
+- nodemon index.js in "Server"
