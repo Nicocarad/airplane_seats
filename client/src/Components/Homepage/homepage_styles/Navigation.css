@@ -1,0 +1,36 @@
+.navbar { 
+  /* background: linear-gradient(to right, #002b49,#014b80); */
+  background: #f60 !important;
+  padding: 20px;
+  height: 70px;
+}
+
+.navbar-padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-icon {
+  margin: 1rem;
+  color: #002b49;
+}
+
+.title {
+  padding-left: 90px;
+  color: #002b49;
+  font-size: 40px !important;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.right-btn {
+  border-width: 3px;
+  font-size: 13px;
+  font-weight: bold;
+  align-self: center;
+  border-color: #002b49;
+  color:#002b49
+}

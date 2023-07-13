@@ -1,0 +1,39 @@
+.reservation-form {
+  padding: 10px;
+  background-color: #f0f0f0;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.reservation-form h1 {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.form-label {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.log-container,
+.already-booked {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding-bottom: 10px;
+  margin-left: 5px;
+  width: fit-content;
+}
+
+#button-addon2{
+  color: #002b49;
+  border-color: #002b49;
+  border-width: 2px;
+}

@@ -1,0 +1,38 @@
+.cards {
+  display: flex;
+  gap: 70px;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+  margin: 120px 0 30px;
+  position: absolute;
+  left: 200px;
+}
+
+
+
+.home-page {
+  width: fit-content;
+  height: 1300px;
+  display: flex;
+  flex-direction: row;
+}
+.cont {
+  position: fixed;
+}
+
+.home-img {
+  margin-top: 65px;
+  width: 800px;
+  height: 770px;
+}
+
+.card-description {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .home-img {
+    display: none;
+  }
+}

@@ -1,0 +1,8 @@
+body {
+  height: 80%;
+  background: #f0f0f0;
+}
+
+.vheight-100 {
+  min-height: 100vh;
+}

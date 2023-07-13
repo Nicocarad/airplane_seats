@@ -1,0 +1,59 @@
+.legend {
+  font-size: 15px;
+}
+
+.seat-legend {
+  width: 42px;
+  height: 44px;
+  border-radius: 7px 7px 14px 14px;
+  font-size: 10px;
+  font-weight: bold;
+  box-shadow: 2px;
+}
+
+.seat-legend.btn-outline-primary {
+  border-width: 2px;
+  color: black;
+  font-weight: bold;
+  --bs-btn-disabled-border-color: #002b49;
+}
+
+.seat-legend.btn-warining {
+  background-color: #ffc107;
+}
+
+.seat-legend.btn-outline-primary::after {
+  font-family: "Bootstrap-icons";
+  content: "\F4FA";
+  font-size: 15px;
+  margin-top: 5px;
+  display: block;
+}
+
+.seat-legend.btn-danger {
+  font-weight: bold;
+  background-color: rgb(151, 151, 151);
+  border-color: black;
+  border-width: 2px;
+}
+
+.seat-legend.btn-danger::after {
+  font-family: "Bootstrap-icons";
+  content: "\F659";
+  font-size: 15px;
+  display: block;
+  margin-top: 5px;
+}
+
+.seat-type {
+  display: inline;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.legend-cont {
+  padding-top: 35px;
+  padding-left: 20px;
+  display: flex;
+  gap: 13px;
+}
